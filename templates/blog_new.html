@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}New Blog{% endblock title %}
+
+{% block content %}
+
+<div class="d-flex justify-content-center">
+    <h2>New Blog</h2>
+</div><br>
+
+<div class="d-flex justify-content-center">
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <div class="d-flex justify-content-center">
+            <input type="submit" class="btn btn-success mr-2" value="Save">
+            <a class="btn btn-primary" href="{% url 'blog_list' %}" role="button">Cancel</a>
+        </div>
+    </form>
+</div>
+
+{% endblock content %}

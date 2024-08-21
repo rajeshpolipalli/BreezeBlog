@@ -8,7 +8,7 @@ Domain: Full Stack Developer
 
 Duration: August 1st To Septmenber 1st
 
-Mentor: Saravani Gouni
+Mentor: Muzammil ahmed
 
 🌟 Project Overview 🌟
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
